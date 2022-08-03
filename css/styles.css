@@ -1,0 +1,150 @@
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+#title{
+    background-color: rgb(5, 248, 204);
+    padding: 3% 15%;
+    color: white;
+    height: 38rem;
+    overflow: hidden;
+}
+
+h1{
+    font-family: 'Montserrat-Black', sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: 900 !important;
+}
+
+#mobile-img{
+    transform: rotate(20deg);
+    width: 60%;
+}
+
+#img-container{
+    display: flex;
+    justify-content: center;
+}
+
+.navbar{
+    padding-bottom: 1.5rem;
+}
+
+.nav-link{
+    padding: 0% 18px !important;
+    color: white !important;
+}
+
+.navbar-brand{
+    font-family: 'Ubuntu';
+    font-size: 2.2rem !important ;
+    font-weight: bold;
+    color: white !important;
+}
+
+#features{
+    padding: 5% 15%;
+}
+
+.feature-bo{
+    text-align: center ;
+    padding: 5%;
+}
+.feature-bo p{
+    color: gray;
+}
+.feature-bo i{
+    color: aquamarine;
+}
+.feature-bo i:hover{
+    color: rgb(3, 220, 147);
+}
+
+h2{
+    font-weight: 900 !important;
+}
+
+
+
+
+#testimonials{
+    text-align: center;
+    background-color: rgb(5, 248, 204);
+    color: white;
+}
+
+.testimonial-img{
+    border-radius: 50%;
+    margin: 10%;
+}
+
+.carousel-control-next-icon{
+    background-color: rgb(0, 0, 0 , 0.2);
+}
+
+.carousel-control-prev-icon{
+    background-color: rgb(0, 0, 0 , 0.2);
+}
+
+.carousel-item{
+    padding: 5% 18%;
+}
+
+#press{
+    padding: 5% 18%;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+#press img{
+    width: 120px;
+}
+
+
+#pricing{
+    text-align: center;
+    padding: 100px;
+}
+
+
+#cta{
+    text-align: center;
+    padding: 5% 18%;
+    background-color: rgb(5, 248, 204) ;
+    color: white;
+}
+
+
+
+#footer{
+    text-align: center;
+    padding: 5% 18%;
+    color: grey;
+}
+
+
+
+.social-icon{
+    margin: 5px 7px;
+}
+
+
+@media (max-width : 990px){
+
+    #title{
+        height: 80rem;
+    }
+
+    #mobile-img{
+        margin-top: 100px;
+        transform: rotate(0);
+    }
+
+    
+}
+
+
+
